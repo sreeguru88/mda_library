@@ -1,0 +1,207 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>mda_libray</groupId>
+  <artifactId>mda_libray</artifactId>
+  <version>3.0</version>
+  <name>BAF</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+  <dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.33</version>
+</dependency>
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>6.9.4</version>
+    <scope>compile</scope>
+</dependency>
+<dependency>
+    <groupId>org.jsonschema2pojo</groupId>
+    <artifactId>jsonschema2pojo-core</artifactId>
+    <version>1.2.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/com.helger/jcodemodels -->
+<dependency>
+    <groupId>com.helger</groupId>
+    <artifactId>jcodemodel</artifactId>
+    <version>3.4.1</version>
+</dependency>
+<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-core</artifactId>
+    <version>2.15.2</version>
+</dependency>
+<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-databind</artifactId>
+    <version>2.15.2</version>
+</dependency>
+<dependency>
+    <groupId>com.fasterxml.jackson.module</groupId>
+    <artifactId>jackson-module-jsonSchema</artifactId>
+    <version>2.15.2</version>
+</dependency>
+<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-databind</artifactId>
+    <version>2.15.2</version>
+</dependency>
+<dependency>
+    <groupId>commons-io</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>2.13.0</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-lang3</artifactId>
+    <version>3.13.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
+<dependency>
+    <groupId>org.apache.httpcomponents</groupId>
+    <artifactId>httpclient</artifactId>
+    <version>4.5.14</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpmime -->
+<dependency>
+    <groupId>org.apache.httpcomponents</groupId>
+    <artifactId>httpmime</artifactId>
+    <version>4.5.14</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.codeartisans/org.json -->
+<dependency>
+    <groupId>org.codeartisans</groupId>
+    <artifactId>org.json</artifactId>
+    <version>20131017</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/com.splunk/splunk-sdk-java -->
+<!--<dependency>
+    <groupId>com.splunk</groupId>
+    <artifactId>splunk-sdk-java</artifactId>
+    <version>1.5</version>
+</dependency>-->
+<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-core</artifactId>
+    <version>2.20.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-api</artifactId>
+    <version>2.20.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/commons-configuration/commons-configuration -->
+<dependency>
+    <groupId>commons-configuration</groupId>
+    <artifactId>commons-configuration</artifactId>
+    <version>1.10</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/io.appium/java-client need to be added -->
+<dependency>
+    <groupId>io.appium</groupId>
+    <artifactId>java-client</artifactId>
+    <version>7.6.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.springframework/spring-context 
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-context</artifactId>
+    <version>6.0.11</version>
+</dependency>
+-->
+
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.12.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-support -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-support</artifactId>
+    <version>4.12.1</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-remote-driver -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-remote-driver</artifactId>
+    <version>4.12.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/com.squareup.okhttp3/okhttp -->
+<dependency>
+    <groupId>com.squareup.okhttp3</groupId>
+    <artifactId>okhttp</artifactId>
+    <version>4.10.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/com.google/guava -->
+<dependency>
+    <groupId>com.google.guava</groupId>
+    <artifactId>guava</artifactId>
+    <version>31.1-jre</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/com.experitest/visual -->
+<dependency>
+    <groupId>com.experitest</groupId>
+    <artifactId>visual</artifactId>
+    <version>0.10</version>
+</dependency>
+
+<dependency>
+    <groupId>commons-codec</groupId>
+    <artifactId>commons-codec</artifactId>
+    <version>1.15</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/net.sf.json-lib/json-lib -->
+<!-- <dependency>
+    <groupId>net.sf.json-lib</groupId>
+    <artifactId>json-lib</artifactId>
+    <version>2.4</version>
+</dependency>-->
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml-lite</artifactId>
+    <version>5.2.2</version>
+    <exclusions>
+    <exclusion>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-api</artifactId>
+    </exclusion>
+    </exclusions>
+</dependency>
+
+  </dependencies>
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+    <resources>
+    <resource>
+    <directory>src</directory>
+    <includes>
+     <include>**/*.ftl</include>
+     <include>**/*.css</include>
+     <include>**/*.properties</include>
+    </includes>
+   
+    
+    </resource>
+    </resources>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.6.2</version>
+        <configuration>
+          <release>17</release>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
